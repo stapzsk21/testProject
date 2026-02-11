@@ -22,7 +22,7 @@ function App() {
 
   return (
     <TranslationProvider initialLanguage={APP_CONSTANTS.languages.default}>
-      <Router basename={basePath}>
+      <Router basename={"/testProject"}>
 
         <Routes>
           {/* Страницы с Header */}
