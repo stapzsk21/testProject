@@ -1,0 +1,57 @@
+@use './variables.scss' as *;
+
+.page-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: url('../images/page-header-bg.png') center no-repeat,#000;
+  overflow: hidden;
+  position: relative;
+  padding: 240px 0;
+  z-index: 6;
+
+
+  @media (min-width: 1900px) {
+    background-size: cover;
+    background-position: center;
+  }
+  @media (max-width: 1440px) {
+    padding: 227px 0;
+  }
+  @media (max-width: 1200px) {
+    padding: 199px 0;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+.page-header__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 358px;
+  margin: 0 auto;
+}
+
+.page-header__logo {
+  margin-bottom: 48px;
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 263px;
+  }
+}
+
+.page-header__image {
+  margin-bottom: 32px;
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 326px;
+  }
+}

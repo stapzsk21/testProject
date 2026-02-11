@@ -1,0 +1,114 @@
+{
+  "ru": [
+    { "value": "support", "label": "Отдел клиентской поддержки" },
+    { "value": "development", "label": "Отдел разработки и техподдержки" },
+    { "value": "analysis", "label": "Отдел анализа и риск-менеджмента" },
+    { "value": "marketing", "label": "Отдел маркетинга и коммуникаций" },
+    { "value": "financial", "label": "Финансово-правовой отдел" },
+    { "value": "hr", "label": "Отдел HR и подбора специалистов" }
+  ],
+  "en": [
+    { "value": "support", "label": "Customer Support Department" },
+    { "value": "development", "label": "Development and Technical Support Department" },
+    { "value": "analysis", "label": "Analytics and Risk Management Department" },
+    { "value": "marketing", "label": "Marketing and Communications Department" },
+    { "value": "financial", "label": "Finance and Legal Department" },
+    { "value": "hr", "label": "HR and Talent Acquisition Department" }
+  ],
+  "tr": [
+    { "value": "support", "label": "Müşteri Destek Departmanı" },
+    { "value": "development", "label": "Yazılım Geliştirme ve Teknik Destek Departmanı" },
+    { "value": "analysis", "label": "Analiz ve Risk Yönetimi Departmanı" },
+    { "value": "marketing", "label": "Pazarlama ve İletişim Departmanı" },
+    { "value": "financial", "label": "Finans ve Hukuk Departmanı" },
+    { "value": "hr", "label": "İK ve Yetenek Kazanımı Departmanı" }
+  ],
+  "ar": [
+    { "value": "support", "label": "قسم دعم العملاء" },
+    { "value": "development", "label": "قسم تطوير البرمجيات والدعم الفني" },
+    { "value": "analysis", "label": "قسم التحليل وإدارة المخاطر" },
+    { "value": "marketing", "label": "قسم التسويق والاتصالات" },
+    { "value": "financial", "label": "قسم المالية والشؤون القانونية" },
+    { "value": "hr", "label": "قسم الموارد البشرية واستقطاب المواهب" }
+  ],
+  "de": [
+    { "value": "support", "label": "Kundensupport-Abteilung" },
+    { "value": "development", "label": "Abteilung für Entwicklung und technischen Support" },
+    { "value": "analysis", "label": "Abteilung für Analyse und Risikomanagement" },
+    { "value": "marketing", "label": "Abteilung für Marketing und Kommunikation" },
+    { "value": "financial", "label": "Abteilung für Finanzen und Recht" },
+    { "value": "hr", "label": "Abteilung für Personalwesen und Talentgewinnung" }
+  ],
+  "es": [
+    { "value": "support", "label": "Departamento de Atención al Cliente" },
+    { "value": "development", "label": "Departamento de Desarrollo y Soporte Técnico" },
+    { "value": "analysis", "label": "Departamento de Análisis y Gestión de Riesgos" },
+    { "value": "marketing", "label": "Departamento de Marketing y Comunicaciones" },
+    { "value": "financial", "label": "Departamento de Finanzas y Asuntos Legales" },
+    { "value": "hr", "label": "Departamento de RR. HH. y Adquisición de Talento" }
+  ],
+  "fr": [
+    { "value": "support", "label": "Département de l'assistance client" },
+    { "value": "development", "label": "Département du développement et du support technique" },
+    { "value": "analysis", "label": "Département de l'analyse et de la gestion des risques" },
+    { "value": "marketing", "label": "Département du marketing et de la communication" },
+    { "value": "financial", "label": "Département des finances et des affaires juridiques" },
+    { "value": "hr", "label": "Département des ressources humaines et de l'acquisition de talents" }
+  ],
+  "hi": [
+    { "value": "support", "label": "ग्राहक सहायता विभाग" },
+    { "value": "development", "label": "सॉफ्टवेयर विकास और तकनीकी सहायता विभाग" },
+    { "value": "analysis", "label": "विश्लेषण और जोखिम प्रबंधन विभाग" },
+    { "value": "marketing", "label": "विपणन और संचार विभाग" },
+    { "value": "financial", "label": "वित्त और कानूनी विभाग" },
+    { "value": "hr", "label": "मानव संसाधन और प्रतिभा अधिग्रहण विभाग" }
+  ],
+  "it": [
+    { "value": "support", "label": "Dipartimento di Assistenza Clienti" },
+    { "value": "development", "label": "Dipartimento di Sviluppo e Supporto Tecnico" },
+    { "value": "analysis", "label": "Dipartimento di Analisi e Gestione del Rischio" },
+    { "value": "marketing", "label": "Dipartimento Marketing e Comunicazione" },
+    { "value": "financial", "label": "Dipartimento Finanza e Affari Legali" },
+    { "value": "hr", "label": "Dipartimento Risorse Umane e Acquisizione di Talenti" }
+  ],
+  "ja": [
+    { "value": "support", "label": "カスタマーサポート部" },
+    { "value": "development", "label": "開発およびテクニカルサポート部" },
+    { "value": "analysis", "label": "分析・リスク管理部" },
+    { "value": "marketing", "label": "マーケティング・コミュニケーション部" },
+    { "value": "financial", "label": "財務・法務部" },
+    { "value": "hr", "label": "人事・タレント採用部" }
+  ],
+  "pl": [
+    { "value": "support", "label": "Dział Wsparcia Klienta" },
+    { "value": "development", "label": "Dział Rozwoju i Wsparcia Technicznego" },
+    { "value": "analysis", "label": "Dział Analiz i Zarządzania Ryzykiem" },
+    { "value": "marketing", "label": "Dział Marketingu i Komunikacji" },
+    { "value": "financial", "label": "Dział Finansów i Spraw Prawnych" },
+    { "value": "hr", "label": "Dział HR i Pozyskiwania Talentów" }
+  ],
+  "pt": [
+    { "value": "support", "label": "Departamento de Suporte ao Cliente" },
+    { "value": "development", "label": "Departamento de Desenvolvimento e Suporte Técnico" },
+    { "value": "analysis", "label": "Departamento de Análise e Gestão de Riscos" },
+    { "value": "marketing", "label": "Departamento de Marketing e Comunicações" },
+    { "value": "financial", "label": "Departamento Financeiro e Jurídico" },
+    { "value": "hr", "label": "Departamento de RH e Aquisição de Talentos" }
+  ],
+  "zh": [
+    { "value": "support", "label": "客户支持部门" },
+    { "value": "development", "label": "开发与技术支持部门" },
+    { "value": "analysis", "label": "分析与风险管理部门" },
+    { "value": "marketing", "label": "市场与传播部门" },
+    { "value": "financial", "label": "财务与法务部门" },
+    { "value": "hr", "label": "人力资源与人才招聘部门" }
+  ],
+  "fa": [
+    { "value": "support", "label": "بخش پشتیبانی مشتریان" },
+    { "value": "development", "label": "بخش توسعه و پشتیبانی فنی" },
+    { "value": "analysis", "label": "بخش تحلیل و مدیریت ریسک" },
+    { "value": "marketing", "label": "بخش بازاریابی و ارتباطات" },
+    { "value": "financial", "label": "بخش مالی و حقوقی" },
+    { "value": "hr", "label": "بخش منابع انسانی و جذب استعدادها" }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true,
+  "printWidth": 100,
+  "bracketSameLine": false,
+  "arrowParens": "always",
+  "jsxSingleQuote": false,
+  "bracketSpacing": true,
+  "singleAttributePerLine": false,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "(^(react)$|^(@reduxjs)|^(redux)|^(react-redux)|^(react-router-dom)|^(react-router)|^(react-dom))",
+    "^(?!app_history)(?!components)(?!models)(?!createStore)(?!theme)(?!icons)(?!@mui)(?!@material-ui)(?!context)([@a-z-/]+)",
+    "^(@mui|@emotion)",
+    "^(models)[models/a-zA-Z]+|^(models)",
+    "<THIRD_PARTY_MODULES>",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": false
+}

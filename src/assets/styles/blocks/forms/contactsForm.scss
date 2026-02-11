@@ -1,0 +1,256 @@
+@use '../../variables.scss' as *;
+
+// Contacts List
+.section-contacts-list {
+  padding: 48px 0;
+  background: $bg-color-1;
+  border-top: 1px solid $border-color-1;
+  border-bottom: 1px solid $border-color-1;
+
+  @media screen and (max-width: 1024px) {
+    padding: 28px 0;
+  }
+}
+.contacts-list {
+  flex-direction: row;
+  align-items: stretch;
+  gap: 24px;
+  width: 100%;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
+}
+.contacts-list__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 7px solid $accent-color;
+  padding: 0 16px;
+
+  &.address {
+    .сaption {
+      white-space: wrap;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    padding: 0 8px;
+  }
+}
+.contacts-list__link,
+.contacts-list__text {
+  color: $text-color-4;
+
+
+  @media screen and (max-width: 1024px) {
+  }
+
+  &.сaption {
+    font-size: 20px !important;
+    line-height: 26px !important;
+    font-weight: 400 !important;
+    font-family: $font-second !important;
+    color: $text-color-3;
+    white-space: nowrap;
+
+    @media screen and (max-width: 1024px) {
+      white-space: wrap;
+    }
+  }
+}
+
+// Contacts Form
+.section-contacts-form {
+  padding-top: 86px;
+  overflow: visible;
+  background: $bg-color-2;
+
+  .section-line-title {
+    margin-bottom: 64px;
+
+    @media screen and (max-width: 1024px) {
+      margin-bottom: 32px;
+    }
+  }
+}
+
+.section-contacts-form-wrapper {
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  background: $bg-color-1;
+  padding: 20px;
+  gap: 16px;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+
+.contacts-wrapper {
+  width: 100%;
+  padding: 32px;
+  position: relative;
+  border-radius: $border-radius-24;
+  background: $bg-color-1;
+  flex: 1;
+
+  @media screen and (max-width: 1024px) {
+    padding: 24px;
+  }
+}
+
+.contacts-list__info {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.contacts-form-wrapper {
+  align-items: stretch;
+  width: 100%;
+  gap: 16px;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+.contacts-form__title {
+  color: $text-color-1;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto 54px;
+}
+
+// Date picker
+.air-datepicker {
+  --adp-background-color: #{$bg-datepicker};
+  --adp-background-color-hover: #{$bg-datepicker-hover};
+  --adp-background-color-active: #{$bg-datepicker-hover};
+
+  --adp-border-color: #{$border-color-1};
+  --adp-border-radius: 0px !important;
+
+  --adp-cell-background-color-selected: #{$bg-datepicker-color-hover} !important;
+  --adp-cell-background-color-selected-hover: #{$bg-datepicker-color-hover} !important;
+  --adp-cell-background-color-hover: #{$bg-datepicker-color-hover}3d !important;
+  --adp-color-current-date: #{$text-color-1} !important;
+
+  border-color: $border-color-1;
+  box-shadow: none;
+  background: $bg-datepicker;
+
+  .air-datepicker-cell.-selected-.-current- {
+    background: $main-color;
+  }
+  .air-datepicker-nav {
+    border-bottom: 1px solid $border-color-1;
+  }
+  .air-datepicker-nav--title,
+  .air-datepicker-nav--title i {
+    color: $text-color-1;
+  }
+  .air-datepicker-body--day-name {
+    color: $text-color-1;
+    font-weight: 500;
+  }
+  .air-datepicker--pointer:after {
+    background: $bg-datepicker;
+    border-color: $bg-datepicker;
+    display: none;
+  }
+  .air-datepicker-cell.-disabled- {
+    color: rgba($text-color-2, 0.5) !important;
+  }
+  .air-datepicker-cell.-disabled-.-focus- {
+    background: rgba($main-color, 0.4);
+  }
+  .air-datepicker-cell {
+    color: $text-color-1;
+  }
+  .air-datepicker-cell.-focus- {
+    color: $text-color-1;
+  }
+  // .air-datepicker-cell.-selected-{
+  // 	background: rgba($main-color, 1);
+  // }
+  // .air-datepicker-nav--action:hover, .air-datepicker-nav--title:hover{
+  // 	background: rgba($main-color, .5);
+  // }
+}
+// Timepicker
+.timepicker {
+  &.air-datepicker {
+    --adp-background-color: #{$bg-datepicker};
+    --adp-border-color: #{$border-color-1};
+
+    border-color: $border-color-1;
+    border-radius: 0px;
+    // box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background: $bg-datepicker;
+
+    .air-datepicker-time {
+      border-top: 1px solid $border-color-1;
+      &--current {
+        color: $main-color;
+      }
+    }
+
+    .air-datepicker-time--row {
+      input {
+        border: none !important;
+        border-radius: 0;
+        background: transparent;
+
+        &:focus {
+          border: none !important;
+        }
+      }
+    }
+    .air-datepicker-time--current-hours,
+    .air-datepicker-time--current-minutes {
+      font-size: 18px;
+      &:after {
+        background: $bg-color-1;
+      }
+    }
+  }
+}
+html.lang-fa,
+html.lang-ar {
+  .contacts-list__item {
+    border-left: none;
+    border-right: 7px solid $accent-color;
+    direction: ltr;
+    text-align: right;
+  }
+  .air-datepicker-time--current {
+    flex-direction: row-reverse;
+  }
+  .air-datepicker-nav--action {
+    &[data-action='next'] {
+      transform: rotate(180deg);
+    }
+    &[data-action='prev'] {
+      transform: rotate(-180deg);
+    }
+  }
+  .air-datepicker-nav--title {
+    gap: 4px;
+    i {
+      margin: 0;
+    }
+  }
+}
+:root {
+  --PhoneInput-color--focus: #7133f5;
+  --PhoneInputCountrySelectArrow-color--focus: #7133f5;
+}

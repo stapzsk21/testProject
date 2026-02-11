@@ -1,0 +1,51 @@
+@use '../../variables.scss' as *;
+
+.contacts-button {
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  z-index: 1200;
+  background-color: $accent-color;
+  box-shadow: 0px 0px 0px 11px rgba($accent-color, 0.35);
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    box-shadow 0.3s ease,
+    opacity 0.3s ease;
+  animation: none;
+
+  @media screen and (max-width: 1024px) {
+    right: 20px;
+    bottom: 24px;
+  }
+
+  @media screen and (max-width: 640px) {
+    right: 16px;
+    bottom: 16px;
+    width: 48px;
+    height: 48px;
+  }
+
+  &:hover {
+    animation: contacts-button-blink 0.9s ease-in-out infinite;
+  }
+}
+
+@keyframes contacts-button-blink {
+  0% {
+    box-shadow: 0px 0px 0px 11px rgba($accent-color, 0.35);
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0px 0px 0px 18px rgba($accent-color, 0.4);
+    opacity: 0.75;
+  }
+  100% {
+    box-shadow: 0px 0px 0px 11px rgba($accent-color, 0.35);
+    opacity: 1;
+  }
+}

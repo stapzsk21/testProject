@@ -1,0 +1,44 @@
+@use '../../variables.scss' as *;
+@use 'sass:color';
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 17px 22px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-transform: uppercase;
+  font-family: $font-main;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 12px;
+  letter-spacing: 0;
+
+  -webkit-tap-highlight-color: transparent;
+  transition: 0.3s ease;
+
+  &[disabled] {
+    opacity: 0.3 !important;
+    pointer-events: none !important;
+  }
+
+  &.btn-main {
+    background: linear-gradient(84.38deg, #FF8D6B 7.59%, #FFBA47 96.71%);
+    color: $btn-text-1;
+    transition: all 0.3s ease-in-out;
+
+    @media screen and (max-width: 768px) {
+      width: 100% !important;
+      max-width: none;
+    }
+
+    img {
+      width: 40px;
+      height: 40px;
+      display: block;
+    }
+  }
+}

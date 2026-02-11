@@ -1,0 +1,324 @@
+User-agent: *
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Yandex
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: YandexBot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Slackbot-LinkExpanding 1.0
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Slackbot-LinkExpanding
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Googlebot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: AdsBot-Google
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Googlebot-News
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Googlebot-Image
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Googlebot-Mobile
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: SurdotlyBot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Telegram
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: TelegramBot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: MJ12bot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: BuiltWith
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Bingbot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: TurnitinBot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: AdIdxBot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: BingPreview
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: MicrosoftPreview
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: AppEngine-Google
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Applebot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: AhrefsBot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: CensysInspect
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-Agent: Searcherxweb
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-Agent: GPTBot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-Agent: OAI-SearchBot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-Agent: ChatGPT-User
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-Agent: Screaming Frog SEO Spider
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-Agent: Gulper Web Bot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-Agent: Pandalytics
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: SiteAuditBot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: SemrushBot-BA
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: SemrushBot-SWA
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: SemrushBot-OCOB
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: SplitSignalBot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: meta-externalagent
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: BLEXBot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-Agent:OAI-SearchBot/1.0
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-Agent: WanScannerBot/1.0
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-Agent: trendictionbot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: DataForSeoBot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: AhrefsBot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: serpstatbot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Amazonbot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: VelenPublicWebCrawler
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: SiteCheckerBotCrawler
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Twitterbot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Applebot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: SkypeUriPreview
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: DropboxPreviewBot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: CuteStat
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: 2ip bot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: 2IP
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Facebot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: SuperBot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: vuhuvbot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: vuhuvRBT
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: vuhuvBot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Discordbot
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: InternetMeasurement
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: Bytespider
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: GenomeCrawlerd
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5
+
+User-agent: BW
+Disallow: /
+Disallow: /*?*
+Crawl-Delay: 5

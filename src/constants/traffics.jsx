@@ -1,0 +1,455 @@
+export const APP_TRAFFICS = {
+  default: {
+    languages: {
+      default: 'en',
+      list: {
+        en: true,
+        ru: true,
+        es: true,
+        de: false,
+        fr: false,
+        it: false,
+        pl: false,
+        zh: false,
+        tr: false,
+        hi: false,
+        pt: false,
+        ar: false,
+        ja: false,
+        fa: false,
+      },
+    },
+    accounts: {
+      account_1: {
+        price: '$ 150',
+        leverage: '1:100',
+      },
+      account_2: {
+        price: '$ 5 000',
+        leverage: '1:500',
+      },
+      account_3: {
+        price: '$ 25 000',
+        leverage: '1:500',
+      },
+    },
+    callbackSocialInputs: {
+      telegram: true,
+      skype: false,
+      whatsapp: true,
+    },
+    spam: false,
+    spamLicense: false,
+  },
+  sp: {
+    languages: {
+      default: 'ru',
+      list: {
+        en: true,
+        ru: true,
+        es: true,
+        de: true,
+        fr: true,
+        it: false,
+        pl: true,
+        zh: true,
+        tr: true,
+        hi: true,
+        pt: true,
+        ar: true,
+        ja: true,
+      },
+    },
+    accounts: {
+      account_1: {
+        price: '$ 150',
+        leverage: '1:20',
+      },
+      account_2: {
+        price: '$ 5 000',
+        leverage: '1:50',
+      },
+      account_3: {
+        price: '$ 25 000',
+        leverage: '1:100',
+      },
+    },
+    callbackSocialInputs: {
+      telegram: true,
+      skype: true,
+      whatsapp: false,
+    },
+    spam: false,
+    spamLicense: false,
+  },
+  gt: {
+    languages: {
+      default: 'ru',
+      list: {
+        en: true,
+        ru: true,
+        es: true,
+        de: true,
+        fr: true,
+        it: false,
+        pl: true,
+        zh: true,
+        tr: true,
+        hi: true,
+        pt: true,
+        ar: true,
+        ja: true,
+      },
+    },
+    accounts: {
+      account_1: {
+        price: '$ 100',
+        leverage: '1:100',
+      },
+      account_2: {
+        price: '$ 1 000',
+        leverage: '1:500',
+      },
+      account_3: {
+        price: '$ 10 000',
+        leverage: '1:500',
+      },
+    },
+    callbackSocialInputs: {
+      telegram: true,
+      skype: false,
+      whatsapp: true,
+    },
+    spam: false,
+    spamLicense: false,
+  },
+  dragon: {
+    languages: {
+      default: 'zh',
+      list: {
+        en: true,
+        ru: true,
+        es: true,
+        de: true,
+        fr: true,
+        it: false,
+        pl: true,
+        zh: true,
+        tr: true,
+        hi: true,
+        pt: true,
+        ar: true,
+        ja: true,
+      },
+    },
+    accounts: {
+      account_1: {
+        price: '$ 1 000',
+        leverage: '1:20',
+      },
+      account_2: {
+        price: '$ 25 000',
+        leverage: '1:50',
+      },
+      account_3: {
+        price: '$ 50 000',
+        leverage: '1:100',
+      },
+    },
+    callbackSocialInputs: {
+      telegram: true,
+      skype: true,
+      whatsapp: false,
+    },
+    spam: true,
+    spamLicense: true,
+  },
+  express: {
+    languages: {
+      default: 'en',
+      list: {
+        en: true,
+        ru: true,
+        es: true,
+        de: true,
+        fr: true,
+        it: false,
+        pl: true,
+        zh: true,
+        tr: true,
+        hi: true,
+        pt: true,
+        ar: true,
+        ja: true,
+      },
+    },
+    accounts: {
+      account_1: {
+        price: '$ 1 000',
+        leverage: '1:20',
+      },
+      account_2: {
+        price: '$ 25 000',
+        leverage: '1:50',
+      },
+      account_3: {
+        price: '$ 50 000',
+        leverage: '1:100',
+      },
+    },
+    callbackSocialInputs: {
+      telegram: true,
+      skype: false,
+      whatsapp: true,
+    },
+    spam: true,
+    spamLicense: false,
+  },
+  armaniSp: {
+    languages: {
+      default: 'en',
+      list: {
+        en: true,
+        ru: true,
+        es: true,
+        de: true,
+        fr: true,
+        it: false,
+        pl: true,
+        zh: true,
+        tr: true,
+        hi: true,
+        pt: true,
+        ar: true,
+        ja: true,
+        fa: true,
+      },
+    },
+    accounts: {
+      account_1: {
+        price: '$ 1 000',
+        leverage: '1:20',
+      },
+      account_2: {
+        price: '$ 25 000',
+        leverage: '1:50',
+      },
+      account_3: {
+        price: '$ 50 000',
+        leverage: '1:100',
+      },
+    },
+    callbackSocialInputs: {
+      telegram: true,
+      skype: true,
+      whatsapp: false,
+    },
+    spam: true,
+    spamLicense: true,
+  },
+  indeyka: {
+    languages: {
+      default: 'en',
+      list: {
+        en: true,
+        ru: true,
+        es: true,
+        de: true,
+        fr: true,
+        it: false,
+        pl: true,
+        zh: true,
+        tr: true,
+        hi: true,
+        pt: true,
+        ar: true,
+        ja: true,
+      },
+    },
+    accounts: {
+      account_1: {
+        price: '$ 1 000',
+        leverage: '1:20',
+      },
+      account_2: {
+        price: '$ 25 000',
+        leverage: '1:50',
+      },
+      account_3: {
+        price: '$ 50 000',
+        leverage: '1:100',
+      },
+    },
+    callbackSocialInputs: {
+      telegram: false,
+      skype: true,
+      whatsapp: true,
+    },
+    spam: true,
+    spamLicense: false,
+  },
+  maradona: {
+    languages: {
+      default: 'es',
+      list: {
+        en: true,
+        ru: true,
+        es: true,
+        de: true,
+        fr: true,
+        it: false,
+        pl: true,
+        zh: true,
+        tr: true,
+        hi: true,
+        pt: true,
+        ar: true,
+        ja: true,
+      },
+    },
+    accounts: {
+      account_1: {
+        price: '$ 1 000',
+        leverage: '1:20',
+      },
+      account_2: {
+        price: '$ 25 000',
+        leverage: '1:50',
+      },
+      account_3: {
+        price: '$ 50 000',
+        leverage: '1:100',
+      },
+    },
+    callbackSocialInputs: {
+      telegram: true,
+      skype: true,
+      whatsapp: false,
+    },
+    spam: true,
+    spamLicense: true,
+  },
+  elbGt: {
+    languages: {
+      default: 'ru',
+      list: {
+        en: true,
+        ru: true,
+        es: true,
+        de: true,
+        fr: true,
+        it: false,
+        pl: true,
+        zh: true,
+        tr: true,
+        hi: true,
+        pt: true,
+        ar: true,
+        ja: true,
+      },
+    },
+    accounts: {
+      account_1: {
+        price: '$ 100',
+        leverage: '1:100',
+      },
+      account_2: {
+        price: '$ 5 000',
+        leverage: '1:500',
+      },
+      account_3: {
+        price: '$ 25 000',
+        leverage: '1:500',
+      },
+    },
+    callbackSocialInputs: {
+      telegram: true,
+      skype: false,
+      whatsapp: true,
+    },
+    spam: false,
+    spamLicense: false,
+  },
+  angelSp: {
+    languages: {
+      default: 'en',
+      list: {
+        en: true,
+        ru: true,
+        es: true,
+        de: true,
+        fr: true,
+        it: false,
+        pl: true,
+        zh: true,
+        tr: true,
+        hi: true,
+        pt: true,
+        ar: true,
+        ja: true,
+      },
+    },
+    accounts: {
+      account_1: {
+        price: '$ 1 000',
+        leverage: '1:20',
+      },
+      account_2: {
+        price: '$ 25 000',
+        leverage: '1:50',
+      },
+      account_3: {
+        price: '$ 50 000',
+        leverage: '1:100',
+      },
+    },
+    callbackSocialInputs: {
+      telegram: true,
+      skype: true,
+      whatsapp: false,
+    },
+    spam: true,
+    spamLicense: false,
+  },
+  armaniGt: {
+    languages: {
+      default: 'ru',
+      list: {
+        en: true,
+        ru: true,
+        es: true,
+        de: true,
+        fr: true,
+        it: false,
+        pl: true,
+        zh: true,
+        tr: true,
+        hi: true,
+        pt: true,
+        ar: true,
+        ja: true,
+      },
+    },
+    accounts: {
+      account_1: {
+        price: '$ 150',
+        leverage: '1:100',
+      },
+      account_2: {
+        price: '$ 1 000',
+        leverage: '1:500',
+      },
+      account_3: {
+        price: '$ 10 000',
+        leverage: '1:500',
+      },
+    },
+    callbackSocialInputs: {
+      telegram: true,
+      skype: false,
+      whatsapp: true,
+    },
+    spam: false,
+    spamLicense: false,
+  },
+};

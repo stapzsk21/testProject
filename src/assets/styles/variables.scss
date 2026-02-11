@@ -1,0 +1,116 @@
+// FONTS
+$font-main: 'SFP', sans-serif;
+$font-second: 'SFP', sans-serif;
+$root-font-size: 16px;
+
+// RADIUS
+$border-radius-8: 8px;
+$border-radius-10: 10px;
+$border-radius-12: 12px;
+$border-radius-16: 16px;
+$border-radius-20: 20px;
+$border-radius-24: 24px;
+$border-radius-30: 30px;
+
+$border-radius-button: 9999px;
+$border-radius-dropdown: 0;
+$border-radius-input: 8px;
+
+// COLORS
+$main-color: #799DFA;
+$second-color: #110F0D;
+$accent-color: #E8540B;
+
+// BG COLORS
+$bg-main: #fff;
+$bg-color-1: #1b1a1b;
+$bg-color-2: #d2d2d2;
+$bg-color-3: #00b67a;
+$bg-color-4: #ff8622;
+$bg-color-5: #f9f8f5;
+$bg-color-6: #fcfbf3;
+
+$bg-chart-color-1: #F4F4F4;
+$bg-overlay: rgba(158, 158, 158, 0.6);
+
+// TEXT COLORS
+$nav-text: #0F0E0E;
+$text-color-1: #ebe9ec;
+$text-color-2: #c0bec2;
+$text-color-3: #9cc6ff;
+$text-color-4: #2d2f29;
+$text-color-5: #3c57bc;
+$text-color-6: #605e56;
+
+
+
+// BTN BG COLORS
+$btn-text-1: #fffffe;
+$btn-text-2: $text-color-5;
+
+// ICON COLORS
+$icon-color-1: #0F0E0E;
+$icon-color-2: #787878;
+$icon-color-3: #FEFEFE;
+
+// FORM COLORS
+$input-text-1: #0F0E0E;
+$input-text-2: #787878;
+$input-color-1: #FEFEFE;
+
+// BORDER COLORS
+$border-color-1: #dcd6d1;
+
+$border-color-2: #787878;
+$border-color-3: #0F0E0E;
+
+// STATUS COLORS
+$succes: #37A86F;
+$error: #E53E3E;
+
+$hover-effect-1: 4px 4px 0px 0px $second-color;
+$hover-effect-2: 4px 4px 0px 0px $accent-color;
+
+// FORMS
+$input-bg-color-1: #fff;
+$input-border-color-1: $border-color-1;
+$input-label-color-1: $input-text-1;
+$input-text-color-1: $text-color-2;
+
+// ERROR COLORS;
+$error-color: #f44b4b;
+$success-color: #06ff83;
+
+// NAV
+$nav-bg: #1B1A1B;
+$nav-sticky: $bg-main;
+$bg-dropdown-list: #E6E6E6; //выпадашки фон
+$border-dropdown-list: $border-color-2; // если нужна рамка выпадашки
+
+// POPUP
+$popup-overlay-bg: rgba(158, 158, 158, 0.6);
+$popup-bg: $bg-color-1;
+$popup-border: $border-color-2;
+
+// DATAPICKER
+$bg-datepicker: $input-bg-color-1;
+$bg-datepicker-hover: $input-label-color-1;
+$bg-datepicker-color-hover: rgba($main-color, 1);
+$bg-datapicker-after: #fff;
+$border-datapicker-after: rgba($input-border-color-1, 0.2);
+$text-datepicker: $text-color-3;
+$text-disable-datepicker: $text-color-2;
+$bg-timepicker-row: rgba($main-color, 0.2);
+
+// SELECT
+$bg-select-color: $input-bg-color-1;
+$bg-select-option-list: $input-bg-color-1;
+$bg-shadow-option-list:
+  0 0 0 1px rgba(0, 0, 0, 0.1),
+  0 4px 11px rgba(0, 0, 0, 0.1);
+$bg-bg-select-option: transparent;
+$bg-selected-option: $main-color;
+$bg-hover-select-option: $main-color;
+$border-select-color: 1px solid $input-border-color-1;
+$text-select-color: $text-color-1;
+$text-hover-select-color: $text-color-1;

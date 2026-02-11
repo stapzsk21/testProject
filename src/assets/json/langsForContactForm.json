@@ -1,0 +1,7 @@
+{
+  "languages": [
+    { "value": "ru", "label": "Русский" },
+    { "value": "en", "label": "English" },
+    { "value": "tr", "label": "Türkçe" }
+  ]
+}

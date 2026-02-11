@@ -1,0 +1,260 @@
+@use '../../variables.scss' as *;
+
+.h1-title,
+.h2-title,
+.h3-title,
+.h4-title {
+  font-family: $font-second;
+}
+
+.h1-title {
+  font-size: 36px !important;
+  line-height: 38px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0px !important;
+  color: $text-color-1;
+  text-transform: uppercase !important;
+  font-family: $font-second !important;
+  transform-origin: bottom !important;
+
+  span {
+    color: $accent-color;
+  }
+
+  @media screen and (max-width: 1280px) {
+  }
+
+  @media screen and (max-width: 1024px) {
+    font-size: 24px !important;
+    line-height: 26px !important;
+  }
+}
+
+.h2-title {
+  font-size: 30px !important;
+  line-height: 38px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0px !important;
+  color: $text-color-1;
+  position: relative;
+  text-transform: uppercase !important;
+  font-family: $font-second !important;
+  transform-origin: bottom !important;
+
+  span {
+    color: $accent-color;
+  }
+  @media screen and (max-width: 1280px) {
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 20px !important;
+    line-height: 25px !important;
+  }
+}
+
+.h3-title {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: $text-color-3;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.h4-title {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 110%;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 20px;
+    line-height: 100%;
+  }
+}
+
+.section-title {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+  margin-bottom: 48px;
+
+  @media screen and (max-width: 1024px) {
+    margin-bottom: 32px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 16px;
+  }
+
+  .text-big {
+    color: $text-color-2;
+  }
+}
+
+.section-line-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  width: auto;
+  flex: 1;
+
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+  }
+
+  h2.h2-title {
+    max-width: 600px;
+    @media screen and (max-width: 1024px) {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+.section-text {
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    gap: 16px;
+  }
+  p {
+    flex: 1 50%;
+
+    @media screen and (max-width: 1024px) {
+      flex: 1 100%;
+    }
+  }
+}
+
+.text {
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 400;
+  color: $text-color-2;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+.text-big {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+
+  @media screen and (max-width: 1280px) {
+  }
+
+  @media screen and (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+
+.text-small {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  font-family: $font-main;
+}
+
+.nav-text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: $font-main;
+}
+
+.text-baner {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  font-family: $font-main;
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.nav-text-md {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  font-family: $font-second;
+}
+
+.text-center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-gray-bold {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  font-family: $font-main;
+}
+
+.text-bold-standart {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  color: $text-color-4;
+  font-family: $font-main;
+}
+
+.caption-2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: $text-color-5;
+  font-family: $font-main;
+}
+
+.text-standart {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  color: $text-color-5;
+  font-family: $font-main;
+}
+
+.link-text {
+  font-family: $font-main;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color: $text-color-5;
+}
+
+html.lang-fa,
+html.lang-ar {
+  .h1-title,
+  .h2-title,
+  .h3-title,
+  .h4-title,
+  .text,
+  .text-big,
+  .text-small,
+  .text-baner,
+  .text-gray-bold,
+  .text-bold-standart,
+  .text-standart,
+  .nav-text,
+  .nav-text-md,
+  .caption-2 {
+    direction: rtl;
+    text-align: right;
+    align-items: flex-end;
+  }
+}
