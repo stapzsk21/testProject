@@ -17,14 +17,6 @@ export default defineConfig(({ command, mode }) => {
         fastRefresh: true,
       }),
       {
-        name: 'copy-php-files',
-        closeBundle: async () => {
-          if (isProduction) {
-            await copy(resolve(__dirname, 'src/php'), resolve(__dirname, 'build/php'));
-          }
-        },
-      },
-      {
         name: 'copy-favicon',
         closeBundle: async () => {
           if (isProduction) {
